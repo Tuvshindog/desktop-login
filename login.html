@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <img src="cloud.jpg" alt="Cloud Background" class="background-image">
+        <div class="left-section">
+        </div>
+        <div class="right-section">
+            <img src="logo.png" alt="Hi Together Logo" class="logo">
+            <div class="login-form">
+                <h2>로그인</h2>
+                <form>
+                    <div>
+                        <label class="site" for="site">현장명</label>
+                        <select id="site">
+                            <option>현장명을 선택해 주세요</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="company">회사명</label>
+                        <select id="company">
+                            <option>회사명을 선택해 주세요</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="name">이름</label>
+                        <div class="name-input">
+                            <input type="text" id="name" placeholder="김길동">
+                            <button type="button" class="btn">인증번호</button>
+                        </div>
+                    </div>
+
+                    <div>
+
+                        <label for="name">OTP</label>
+                        <div class="name-input">
+                            <input type="text" id="name" placeholder="">
+                            <button type="button" class="btn" disabled>확인</button>
+                        </div>
+                    </div>
+
+
+
+                    <button type="submit" class="btn fullwidth" disabled>로그인</button>
+                </form>
+                <div class="footer">
+                    <img src="safe-buddy-logo.png" alt="Safe Buddy Logo" class="safe-buddy-logo">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
